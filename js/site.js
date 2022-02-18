@@ -7,6 +7,6 @@ $(document).ready(function () {
   });
   $("#galery").carousel({
     pauseOnHover: true,
-    interval: 1000,
+    interval: 3000,
   });
 });

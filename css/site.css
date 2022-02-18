@@ -157,3 +157,35 @@ a:hover {
     padding-right: 0 !important;
     padding-left: 0 !important
 }
+
+.img-item{
+    padding: 0;
+}
+
+.info-zone{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.link{
+    color:#fff1c0;
+    border-bottom: 1px solid;
+    width: 60%;
+    opacity: 0.8;
+    font-size: 0.75em;
+    padding:0.5em
+}
+
+.link h6{
+    margin-bottom: 0
+}
+
+.link span{
+    text-transform: uppercase;
+}
+
+.link--last{
+    border-bottom: 0;
+}

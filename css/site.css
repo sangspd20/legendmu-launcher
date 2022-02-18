@@ -162,6 +162,10 @@ a:hover {
     padding: 0;
 }
 
+.img-item a{
+    width: 100%;
+}
+
 .info-zone{
     display:flex;
     align-items:center;

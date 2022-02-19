@@ -176,7 +176,7 @@ a:hover {
 .link{
     color:#fff1c0;
     border-bottom: 1px solid;
-    width: 60%;
+    width: 80%;
     opacity: 0.8;
     font-size: 0.75em;
     padding:0.5em
@@ -192,4 +192,9 @@ a:hover {
 
 .link--last{
     border-bottom: 0;
+}
+
+.custom-link{
+    opacity: 0;
+    pointer-events: none;
 }

@@ -9,4 +9,12 @@ $(document).ready(function () {
     pauseOnHover: true,
     interval: 3000,
   });
+
+  $(".account-link").click(function () {
+    window.open("https://dr.legendmu.vn", "_blank");
+  });
+
+  $(".napthe-link").click(function () {
+    window.open("https://napthe.legendmu.vn", "_blank");
+  });
 });
